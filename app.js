@@ -44,7 +44,7 @@ function recorrerAmigos (){
 }
 
 function sortearAmigo (){
-    if (amigos.length === ""){
+    if (amigos.length <= "0"){
         alert("no hay amigos para sortear")
         return;
 
